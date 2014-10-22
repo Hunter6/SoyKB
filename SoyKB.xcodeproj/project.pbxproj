@@ -23,8 +23,8 @@
 		C542586E19EEF3B500DA857A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C542586D19EEF3B500DA857A /* HomeViewController.m */; };
 		C542587119EF03CD00DA857A /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C542587019EF03CD00DA857A /* RegisterViewController.m */; };
 		C542587D19EF60A900DA857A /* Gene.m in Sources */ = {isa = PBXBuildFile; fileRef = C542587C19EF60A900DA857A /* Gene.m */; };
-		C542587F19F005D600DA857A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C542587E19F005D600DA857A /* Main.storyboard */; };
 		C542588519F009FF00DA857A /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = C542588419F009FF00DA857A /* MainController.m */; };
+		C542588719F0286100DA857A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C542588619F0286100DA857A /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,9 +62,9 @@
 		C542587019EF03CD00DA857A /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		C542587B19EF60A900DA857A /* Gene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gene.h; sourceTree = "<group>"; };
 		C542587C19EF60A900DA857A /* Gene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gene.m; sourceTree = "<group>"; };
-		C542587E19F005D600DA857A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../Base.Iproj/Main.storyboard; sourceTree = "<group>"; };
 		C542588319F009FF00DA857A /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
 		C542588419F009FF00DA857A /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		C542588619F0286100DA857A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../Desktop/Base.Iproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,10 +125,10 @@
 			isa = PBXGroup;
 			children = (
 				C542584319EEE41100DA857A /* AppDelegate.h */,
+				C542588619F0286100DA857A /* Main.storyboard */,
 				C542584419EEE41100DA857A /* AppDelegate.m */,
 				C542584919EEE41100DA857A /* ViewController.h */,
 				C542584A19EEE41100DA857A /* ViewController.m */,
-				C542587E19F005D600DA857A /* Main.storyboard */,
 				C542584C19EEE41100DA857A /* Images.xcassets */,
 				C542583B19EEE41100DA857A /* Supporting Files */,
 				C542586C19EEF3B500DA857A /* HomeViewController.h */,
@@ -248,9 +248,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C542587F19F005D600DA857A /* Main.storyboard in Resources */,
 				C542584D19EEE41100DA857A /* Images.xcassets in Resources */,
 				C542583F19EEE41100DA857A /* InfoPlist.strings in Resources */,
+				C542588719F0286100DA857A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
